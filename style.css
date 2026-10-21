@@ -1,0 +1,103 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 10vh;
+}
+
+header img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+header h3 {
+    color:#5a081a;
+    font-weight: bold;
+    margin-right: 30px;
+    margin: auto 0;
+    float: right;
+    line-height: 10vh;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}       
+
+nav {
+    text-align: center;
+    background-color: #5a081a;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: brown;
+}
+
+main {
+    float: left;
+    width: 65%;
+    margin: 0 0 20px 20px;
+}
+
+main img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+aside {
+    margin: 0 20px 0 0;
+    text-align: center;
+    float: right;
+    width: 25%;
+}
+
+aside h3 {
+    background-color: grey;
+    padding: 5px;
+}
+
+aside li {
+    padding: 10px;
+    font-weight: bold;
+    margin: auto;
+}
+
+footer {
+    clear: both;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 5vh;
+}
